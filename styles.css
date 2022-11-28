@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+    padding: 1rem 10rem;
+}
+
+#heading {
+    color: #EEEEEE;
+    font-size: 6rem;
+    font-family: 'Pacifico', cursive;
+    font-weight: 800;
+    letter-spacing: 0.7rem;
+}
+
+main {
+    margin: 2rem 5rem;
+}
+
+main header {
+    color: #DC5F00;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 0.70rem;
+}
+
+.game {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+    padding: 3rem;
+}
+
+.dice { 
+    width: 25%;
+    aspect-ratio: 1;
+    background-color: #CF0A0A;
+    border-radius: 20%;
+    padding: 1rem;
+}
+
+.dot {
+    width: 3rem;
+    aspect-ratio: 1;
+    background-color: #EEEEEE;
+    border-radius: 100%;
+}
+
+.dots {
+    width: 100%;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cols {
+    width: 100%;
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:is(.two, .three) .cols:first-child {
+    justify-content: flex-start;
+}
+
+:is(.two, .three) .cols:last-child {
+    justify-content: flex-end;
+}
+
+.three .cols:nth-child(2) {
+    justify-content: center;
+}
+
+:is(.four, .five, .six) .cols {
+    justify-content: space-between;
+}
+
+.five .cols:nth-child(2) {
+    justify-content: center;
+}
+
+
+button {
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    width: 15%;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 0.3rem;
+    color: #DC5F00;
+}
+
+button:active {
+    color: #EEEEEE;
+    background-color: #DC5F00;
+    scale: 1.2;
+}
+
+.invisible {
+    display: None;
+}

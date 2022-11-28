@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap" rel="stylesheet">
+    <title>Dice Game</title>
+</head>
+<body>
+    <header id="heading">Dice Game</header>
+    <main>
+        <header>Roll to Play</header>
+        <div class="game">
+            <div class="dice invisible" id="one1" >
+                <div class="dots one">
+                    <div class="cols"></div>
+                    <div class="cols">
+                        <div class="dot"></div>
+                    </div>
+                    <div class="cols"></div>
+                </div>
+            </div>
+            <div class="dice invisible" id="one2" >
+                <div class="dots one">
+                    <div class="cols"></div>
+                    <div class="cols">
+                        <div class="dot"></div>
+                    </div>
+                    <div class="cols"></div>
+                </div>
+            </div>
+            <div class="dice invisible" id="two1" >
+                <div class="dots two">
+                    <div class="cols">
+                        <div class="dot"></div>
+                    </div>
+                    <div class="cols">
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="dice invisible" id="two2" >
+                <div class="dots two">
+                    <div class="cols">
+                        <div class="dot"></div>
+                    </div>
+                    <div class="cols">
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="dice invisible" id="three1" >
+                <div class="dots three">
+                    <div class="cols">
+                        <div class="dot"></div>
+                    </div>
+                    <div class="cols">
+                        <div class="dot"></div>
+                    </div>
+                    <div class="cols">
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="dice invisible" id="three2" >
+                <div class="dots three">
+                    <div class="cols">
+                        <div class="dot"></div>
+                    </div>
+                    <div class="cols">
+                        <div class="dot"></div>
+                    </div>
+                    <div class="cols">
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="dice invisible" id="four1" >
+                <div class="dots four">
+                    <div class="cols">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="cols">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="dice invisible" id="four2" >
+                <div class="dots four">
+                    <div class="cols">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="cols">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="dice invisible" id="five1" >
+                <div class="dots five">
+                    <div class="cols">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="cols">
+                        <div class="dot"></div>
+                    </div>
+                    <div class="cols">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="dice invisible" id="five2" >
+                <div class="dots five">
+                    <div class="cols">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="cols">
+                        <div class="dot"></div>
+                    </div>
+                    <div class="cols">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="dice" id="six1" >
+                <div class="dots six">
+                    <div class="cols">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="cols">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="cols">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="dice" id="six2" >
+                <div class="dots six">
+                    <div class="cols">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="cols">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="cols">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <button onclick="randomDice()">Roll</button>
+</body>
+<footer>
+    <script src="index.js" charset="utf-8"></script>
+</footer>
+</html>
